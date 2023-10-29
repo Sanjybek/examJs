@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./post.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul id="ul">
+                <li id="li"><a href="./index.html">Главная</a></li>
+                <li id="li">О нас</li>
+                <li id="li">Контакты</li>
+                <li id="li">Корзина</li>
+            </ul>
+        </div>
+    </header>
+   
+    <section>
+        <div class="container" >
+            <div id="none block" class="post__block">
+                <h2>Создание товара</h2>
+                <div class="shops__inp">
+                    <label for="shops__input">Название</label>
+                    <input id="shops__input" class="shops__input" type="text" placeholder="Введите название товара">
+                    <label for="shops__input_2">Описание</label>
+                    <input id="shops__input_2" class="shops__input" type="text" placeholder="Введите описание товара">
+                </div>
+                <div class="price">
+                    <label for="price__input">Цена:</label>
+                    <input id="price__input" class="price__input" type="number" placeholder="Цена">
+                </div>
+                <div class="of__img">
+                    <label for="img__inp">Фотография</label>
+                    <input id="img__inp" class="img__inp" type="text" placeholder="Вставьте ссылку на изображение">
+                </div>
+                <div class="shops__btn">
+                    <button class="cancellation__btn"><a  href="./index.html">отмена</a></button>
+                    <button id="save__btn" class="save__btn"><a  href="./index.html">сохронить</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <script src="./main.js"></script>
+    <script src="./post.js"></script>
+</body>
+</html>
